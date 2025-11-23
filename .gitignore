@@ -1,0 +1,90 @@
+# ===============================
+#   PYTHON
+# ===============================
+
+# Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualenv
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+
+# Distribuição / Build
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# Cache
+.cache/
+pytest_cache/
+.coverage
+htmlcov/
+covhtml/
+
+# Arquivos temporários
+*.log
+*.temp
+*.tmp
+
+# Arquivos de configuração locais
+*.env
+*.env.local
+*.env.dev
+*.env.prod
+
+# SQLite Databases
+*.db
+*.sqlite3
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# ===============================
+#   FASTAPI / UVICORN
+# ===============================
+# Arquivos gerados pelo servidor
+*.pid
+
+# ===============================
+#   EDITORES / IDEs
+# ===============================
+
+# VSCode
+.vscode/
+.history/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# ===============================
+#   SISTEMA OPERACIONAL
+# ===============================
+
+# Windows
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Linux
+*~
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ===============================
+#   DOCKER
+# ===============================
+
+docker-compose.override.yml
+docker-data/
